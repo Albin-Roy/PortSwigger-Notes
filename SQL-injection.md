@@ -37,7 +37,7 @@ no.of NULL's is no. of cols ->200 response
   ' ORDER BY 1--
 ```
 
-no. determines cols. -> if shown internal error, it' correct value
+no. determines cols. -> if shown internal error, it' correct value.
 
 
 
@@ -59,11 +59,15 @@ iii) can be analysed by,
 
 
 
-s
+
 
 #### 3. Retrieving data from other table
 
+need to retrieve username and password from users table.
 
+```
+'UNION select username, password from users--
+```
 
 
 
